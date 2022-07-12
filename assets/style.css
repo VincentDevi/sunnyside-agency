@@ -1,4 +1,33 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+.first_page {
+  height: 100vh;
+  width: 100%;
+  border: solid red 3px;
+  background-image: url("page1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.entete {
+  margin: 5% 5% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pag1Texte {
+  font-family: "Barlow";
+  color: white;
+  margin: 40% 0% 0%;
+  border: solid red 3px;
+  align-self: center;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: flex-start;
 }/*# sourceMappingURL=style.css.map */

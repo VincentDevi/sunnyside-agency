@@ -1,0 +1,9 @@
+@import "_variables";
+// Mixins
+
+@mixin texteBase {
+    font-family: $font-texte;
+    font-size: $font-size-texte;
+    line-height: $line-height-texte;
+    
+}
