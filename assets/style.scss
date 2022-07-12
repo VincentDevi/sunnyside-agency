@@ -8,7 +8,7 @@
 .first_page{
     height: 100vh;
     width: 100%;
-    border: solid red 3px;
+    
     background-image: url("page1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -25,13 +25,15 @@
     justify-content: space-between;
 }
 .pag1Texte{
-    font-family: $font-texte;
+    
+    @include titre;
     color: white;
     margin: 40% 0% 0%;
-    border: solid red 3px;
+    max-width: 70%;
     align-self: center;
     flex:1 1 auto;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center ;
 
 }

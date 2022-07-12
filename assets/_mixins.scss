@@ -1,9 +1,24 @@
 @import "_variables";
 // Mixins
 
-@mixin texteBase {
-    font-family: $font-texte;
+@mixin titre {
+    font-family: $font-title;
     font-size: $font-size-texte;
     line-height: $line-height-texte;
+    font-weight: $font-weight-title;
+    letter-spacing: $letter-spaTitre;
+    text-transform: uppercase;
+
+}
+@mixin page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     
+}
+@mixin imageback {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
