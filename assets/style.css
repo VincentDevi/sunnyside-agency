@@ -35,4 +35,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.test {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.test2 {
+  height: 400px;
+  background-image: url("oeuf_page2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */

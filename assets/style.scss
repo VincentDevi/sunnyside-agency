@@ -32,3 +32,13 @@
     align-items: center ;
 
 }
+.test{
+    @include page;
+    height: 100%;
+    
+}
+.test2{
+    height: 400px;
+    background-image: url("oeuf_page2.png");
+    @include imageback;
+}
