@@ -5,10 +5,16 @@ $font-title: 'Fraunces 9pt Soft';
 $font-texte: 'Barlow';
 
 // font-size
-
-$font-size-texte: 40px;
-$line-height-texte: 49px;
+$font-size-h2: 32px;
+$font-size-h1: 40px;
+$font-size-texte: 18px;
+// line height
+$line-height-h2: 32px;
+$line-height-title: 49px;
+$line-height-texte: 30px;
+// font weight
 $font-weight-title: 900;
+$font-weight-texte: 600;
 
 // Letter spacing
 $letter-spaTitre: 6.25px;

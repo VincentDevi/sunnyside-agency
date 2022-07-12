@@ -37,8 +37,34 @@
     height: 100%;
     
 }
-.test2{
-    height: 400px;
-    background-image: url("oeuf_page2.png");
-    @include imageback;
+
+.container{
+    max-width: 100vh;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.textepage2{
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h2{
+        font-family: $font-title;
+        font-size: $font-size-h2;
+        line-height: $line-height-h2;
+        font-weight: $font-weight-title;
+    }
+    p{
+     font-family: $font-texte;
+     font-size: $font-size-texte;
+     line-height: $line-height-texte;
+     font-weight: $font-weight-texte;   
+    }
+    h3{
+        
+    }
+    
 }

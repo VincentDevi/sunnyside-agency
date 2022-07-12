@@ -3,8 +3,8 @@
 
 @mixin titre {
     font-family: $font-title;
-    font-size: $font-size-texte;
-    line-height: $line-height-texte;
+    font-size: $font-size-h1;
+    line-height: $line-height-title;
     font-weight: $font-weight-title;
     letter-spacing: $letter-spaTitre;
     text-transform: uppercase;

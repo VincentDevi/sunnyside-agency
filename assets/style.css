@@ -45,10 +45,30 @@
   height: 100%;
 }
 
-.test2 {
-  height: 400px;
-  background-image: url("oeuf_page2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.container {
+  max-width: 100vh;
+}
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.textepage2 {
+  height: 437px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.textepage2 h2 {
+  font-family: "Fraunces 9pt Soft";
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 900;
+}
+.textepage2 p {
+  font-family: "Barlow";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
