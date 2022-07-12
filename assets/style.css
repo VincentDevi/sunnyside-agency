@@ -71,4 +71,34 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
+}
+.textepage2 h3 {
+  font-size: 15px;
+  font-family: "Barlow";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.textpage3 {
+  height: 600px;
+  background-image: url("cerise.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.textpage4 {
+  height: 600px;
+  background-image: url("orange.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
