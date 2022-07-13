@@ -3,15 +3,33 @@
   padding: 0;
 }
 
-.first_page {
+.acceuil {
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url("page1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url("page1.png");
+  display: flex;
+  flex-direction: column;
+}
+.acceuil__nav {
+  flex: 0.5 1 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 5% 0;
+}
+.acceuil__nav__image {
+  align-self: flex-start;
+}
+.acceuil__nav__item {
+  display: none;
+}
+.acceuil__titre {
+  flex: 2 1 auto;
+  align-self: center;
 }
 
 .entete {
@@ -151,4 +169,35 @@
 }
 .lastpage .par2 aside .container {
   width: 100vh;
+}
+
+@media screen and (min-width: 450px) {
+  .acceuil {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("page1.png");
+  }
+  .acceuil__nav {
+    display: flex;
+  }
+  .acceuil__nav__image {
+    align-self: flex-start;
+  }
+  .acceuil__nav__list {
+    contain: content;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .acceuil__nav__item {
+    display: block;
+  }
+  .acceuil__nav__menu {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

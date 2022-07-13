@@ -22,3 +22,32 @@
     background-size: cover;
     background-position: center;
 }
+
+@mixin acceuil__dekstop {
+    .acceuil{
+        @include page;
+        @include imageback;
+        background-image: url("page1.png");
+
+        &__nav{
+            display: flex;
+            
+            &__image{
+                align-self: flex-start;
+            }
+            &__list{
+                contain: content;
+                width: 40%;
+                display: flex;
+                justify-content: space-between;
+            }
+            &__item{
+                display: block;
+                
+            }
+            &__menu{
+                display: none;
+            }
+        }
+    }
+}
