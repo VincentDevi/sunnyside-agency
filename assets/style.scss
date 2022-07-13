@@ -89,3 +89,56 @@
     align-items: center;
     justify-content: flex-end;
 }
+.testimonies{
+    height: 1108px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h2{
+        flex: 0.5 1 auto;
+    }
+    
+    .emily{
+        flex: 1 1 auto;
+        border: solid 3px red;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        p{
+            align-self: center;
+        }
+        .container{
+            align-self: center;
+            width: 72px;
+            height: 72px;
+        }
+    }
+}
+.lastpage{
+    display: flex;
+    flex-direction: column;
+    footer{
+        display: flex;
+        flex-direction: column;
+        .container{
+            align-self: center;
+        }
+        
+    }
+    .par2{
+        display: flex;
+        flex-direction: column;
+        aside{
+            display: flex;
+            .container{
+                width: 100vh;
+            }
+            }
+        }
+    }
+
+
