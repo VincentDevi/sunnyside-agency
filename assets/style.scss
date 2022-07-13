@@ -98,6 +98,7 @@
 
 
 // style de la troisième page, testimonies
+
 .testimonies{
     height: 1108px;
     width: 100%;
@@ -105,11 +106,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    h2{
+    &__titre{
         flex: 0.5 1 auto;
     }
     
-    .emily{
+    &__person{
         flex: 1 1 auto;
         border: solid 3px red;
         align-self: center;
@@ -117,10 +118,10 @@
         flex-direction: column;
         justify-content: space-around;
 
-        p{
+        &__para{
             align-self: center;
         }
-        .container{
+        &__container{
             align-self: center;
             width: 72px;
             height: 72px;

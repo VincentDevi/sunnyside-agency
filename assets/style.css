@@ -109,10 +109,10 @@
   justify-content: space-around;
   align-items: center;
 }
-.testimonies h2 {
+.testimonies__titre {
   flex: 0.5 1 auto;
 }
-.testimonies .emily {
+.testimonies__person {
   flex: 1 1 auto;
   border: solid 3px red;
   align-self: center;
@@ -120,10 +120,10 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.testimonies .emily p {
+.testimonies__person__para {
   align-self: center;
 }
-.testimonies .emily .container {
+.testimonies__person__container {
   align-self: center;
   width: 72px;
   height: 72px;
