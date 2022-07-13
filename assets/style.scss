@@ -128,28 +128,9 @@
         }
     }
 }
-.lastpage{
-    display: flex;
-    flex-direction: column;
-    footer{
-        display: flex;
-        flex-direction: column;
-        .container{
-            align-self: center;
-        }
-        
-    }
-    .par2{
-        display: flex;
-        flex-direction: column;
-        aside{
-            display: flex;
-            .container{
-                width: 100vh;
-            }
-            }
-        }
-    }
+
+// style de la dernière page, images + footer
+
 
 
 @media screen and (min-width: 450px){

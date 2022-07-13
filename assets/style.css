@@ -129,28 +129,6 @@
   height: 72px;
 }
 
-.lastpage {
-  display: flex;
-  flex-direction: column;
-}
-.lastpage footer {
-  display: flex;
-  flex-direction: column;
-}
-.lastpage footer .container {
-  align-self: center;
-}
-.lastpage .par2 {
-  display: flex;
-  flex-direction: column;
-}
-.lastpage .par2 aside {
-  display: flex;
-}
-.lastpage .par2 aside .container {
-  width: 100vh;
-}
-
 @media screen and (min-width: 450px) {
   .acceuil {
     height: 100vh;
