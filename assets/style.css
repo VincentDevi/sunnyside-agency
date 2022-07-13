@@ -30,71 +30,53 @@
 .acceuil__titre {
   flex: 2 1 auto;
   align-self: center;
-}
-
-.entete {
-  margin: 5% 5% 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.pag1Texte {
+  text-align: center;
   font-family: "Fraunces 9pt Soft";
-  font-size: 40px;
+  font-size: 1.3rem;
   line-height: 49px;
   font-weight: 900;
   letter-spacing: 6.25px;
   text-transform: uppercase;
-  color: white;
-  margin: 40% 0% 0%;
-  max-width: 70%;
-  align-self: center;
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.test {
+.contenu {
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
-
-.container {
-  max-width: 100vh;
-}
-.container img {
-  width: 100%;
-  height: 100%;
-}
-
-.textepage2 {
+.contenu__division__texte {
   height: 437px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.textepage2 h2 {
+.contenu__division__texte__titre {
   font-family: "Fraunces 9pt Soft";
   font-size: 32px;
   line-height: 32px;
   font-weight: 900;
 }
-.textepage2 p {
+.contenu__division__texte__para {
   font-family: "Barlow";
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
 }
-.textepage2 h3 {
+.contenu__division__texte__link {
   font-size: 15px;
   font-family: "Barlow";
   font-weight: 900;
   text-transform: uppercase;
+}
+.contenu__division__container {
+  max-width: 100vh;
+}
+.contenu__division__container__image {
+  width: 100%;
+  height: 100%;
 }
 
 .textpage3 {

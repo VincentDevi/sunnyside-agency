@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+// Style de la page d'acceuil
 .acceuil{
     @include page;
     @include imageback;
@@ -12,6 +13,7 @@
     display: flex;
     flex-direction: column;
     
+    // style de la navbar
     &__nav{
         flex: 0.5 1 auto;
         display: flex;
@@ -23,70 +25,60 @@
         &__item{
             display: none;
         }      
-        
     }
+    // style du tire et de la fléche (encore à faire)
+    
      &__titre{
         flex: 2 1 auto;
         align-self: center;
-     } 
-}
-.entete{
-    margin: 5% 5% 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.pag1Texte{
-    
-    @include titre;
-    color: white;
-    margin: 40% 0% 0%;
-    max-width: 70%;
-    align-self: center;
-    flex:1 1 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center ;
+        text-align: center;
+        @include titre;
+     }
+    } 
+// style de la deuxième page, image + explications
 
-}
-.test{
+
+.contenu{
     @include page;
     height: 100%;
-    
+    &__division{
+        &__texte{
+            height: 437px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            &__titre{
+                font-family: $font-title;
+                font-size: $font-size-h2;
+                line-height: $line-height-h2;
+                font-weight: $font-weight-title;
+            }
+            &__para{
+                font-family: $font-texte;
+                font-size: $font-size-texte;
+                line-height: $line-height-texte;
+                font-weight: $font-weight-texte;
+            }
+            &__link{
+                font-size: 15px;
+                font-family: $font-texte;
+                font-weight: $font-weight-title;
+                text-transform: uppercase;
+            }
+        }
+        &__container{
+            max-width: 100vh;
+            &__image{
+                width: 100%;
+                height: 100%;
+            }
+        
+        }
+    }
 }
 
-.container{
-    max-width: 100vh;
-    img{
-        width: 100%;
-        height: 100%;
-    }
-}
-.textepage2{
-    height: 437px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    h2{
-        font-family: $font-title;
-        font-size: $font-size-h2;
-        line-height: $line-height-h2;
-        font-weight: $font-weight-title;
-    }
-    p{
-     font-family: $font-texte;
-     font-size: $font-size-texte;
-     line-height: $line-height-texte;
-     font-weight: $font-weight-texte;   
-    }
-    h3{
-     font-size: 15px;
-     font-family: $font-texte;
-     font-weight: $font-weight-title;
-     text-transform: uppercase;
-    }
-    
-}
+
 .textpage3{
     height: 600px;
     background-image: url("cerise.png");
