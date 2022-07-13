@@ -78,8 +78,7 @@
   width: 100%;
   height: 100%;
 }
-
-.textpage3 {
+.contenu__division__cerise {
   height: 600px;
   background-image: url("cerise.png");
   background-repeat: no-repeat;
@@ -90,8 +89,7 @@
   align-items: center;
   justify-content: flex-end;
 }
-
-.textpage4 {
+.contenu__division__orange {
   height: 600px;
   background-image: url("orange.png");
   background-repeat: no-repeat;
