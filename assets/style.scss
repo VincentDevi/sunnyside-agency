@@ -39,67 +39,36 @@
 
 
 .contenu{
-    @include page;
+    width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    &__oeuf{
+        @include secondPageMobile;
+        @include test;
+    }
+    &__verre{
+        @include secondPageMobile;
+        @include test;
+    }
     &__division{
-        &__texte{
-            height: 437px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            &__titre{
-                font-family: $font-title;
-                font-size: $font-size-h2;
-                line-height: $line-height-h2;
-                font-weight: $font-weight-title;
-            }
-            &__para{
-                font-family: $font-texte;
-                font-size: $font-size-texte;
-                line-height: $line-height-texte;
-                font-weight: $font-weight-texte;
-            }
-            &__link{
-                font-size: 15px;
-                font-family: $font-texte;
-                font-weight: $font-weight-title;
-                text-transform: uppercase;
-            }
-        }
-        &__container{
-            max-width: 100vh;
-            &__image{
-                width: 100%;
-                height: 100%;
-            }
-        
-        }
         &__cerise{
-            height: 600px;
             background-image: url("cerise.png");
-            @include imageback;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-end;
+            @include ceriseOrange;
+             
         }
         &__orange{
-            height: 600px;
             background-image: url("orange.png");
-            @include imageback;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-end;
+            @include ceriseOrange;
+            
         }
     }
 }
 
-
 // style de la troisième page, testimonies
 
 .testimonies{
+    margin-top: 15%;
     height: 1108px;
     width: 100%;
     display: flex;
@@ -107,21 +76,26 @@
     justify-content: space-around;
     align-items: center;
     &__titre{
+        padding-top: 10%;
         flex: 0.5 1 auto;
     }
     
     &__person{
+        margin-top: 10%;
+        margin-bottom: 10%;
         flex: 1 1 auto;
-        border: solid 3px red;
         align-self: center;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
 
         &__para{
+            margin: 5% 0 5% 0;
+            text-align: center;
             align-self: center;
         }
         &__container{
+            margin: 5% 0 5% 0;
             align-self: center;
             width: 72px;
             height: 72px;
@@ -131,8 +105,34 @@
 
 // style de la dernière page, images + footer
 
+.lastpage{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    &__pictures{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__container{
+            width: 50%;
+            height: auto;
+            &__image{
+                max-width: 100%;                
+            }
+        }
+    }
+}
 
+
+// style pour la version dekstop
 
 @media screen and (min-width: 450px){
+    // first page home responsive
     @include acceuil__dekstop;
+
+    //second page image + text
+    @include secondPageDekstop;
+
+    // last page picture responsive
+    @include lastPagePicturesDekstop;
 }
