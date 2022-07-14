@@ -121,19 +121,6 @@
         flex-direction: column;
         &__oeuf{
             display: flex;
-            &__container{
-                max-width: 50%;
-                &__image{
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-            &__texte{
-                max-width: 50%;
-            }
-        }
-        &__verre{
-            display: flex;
             flex-direction: row-reverse;
             &__container{
                 max-width: 50%;
@@ -144,11 +131,72 @@
             }
             &__texte{
                 max-width: 50%;
+                &__para{
+                    text-align: left;
+                }
+                &__titre{
+                    text-align: left;
+                }
+                &__link{
+                    align-self: flex-start;
+                    text-align: left;
+                }
+            }
+        }
+        &__verre{
+            display: flex;
+            flex-direction: row;
+            &__container{
+                max-width: 50%;
+                &__image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &__texte{
+                max-width: 50%;
+                &__para{
+                    text-align: left;
+                }
+                &__titre{
+                    text-align: left;
+                }
+                &__link{
+                    text-align: left;
+                    align-self: flex-start;
+                }
             }
         }
         
-    }
     
+        &__division{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            &__cerise{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            &__orange{
+                width: 50%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-end;
+            }
+        }
+    
+    }
+}
+
+
+    // Testimonies
+@mixin testimoniesDekstop {
+            
 }
 
 
