@@ -153,7 +153,6 @@
 }
 
 .testimonies {
-  margin-top: 15%;
   height: 1108px;
   width: 100%;
   display: flex;
@@ -162,12 +161,9 @@
   align-items: center;
 }
 .testimonies__titre {
-  padding-top: 10%;
   flex: 0.5 1 auto;
 }
 .testimonies__person {
-  margin-top: 10%;
-  margin-bottom: 10%;
   flex: 1 1 auto;
   align-self: center;
   display: flex;
@@ -175,12 +171,10 @@
   justify-content: space-around;
 }
 .testimonies__person__para {
-  margin: 5% 0 5% 0;
   text-align: center;
   align-self: center;
 }
 .testimonies__person__container {
-  margin: 5% 0 5% 0;
   align-self: center;
   width: 72px;
   height: 72px;
