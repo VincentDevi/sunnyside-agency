@@ -68,31 +68,37 @@
 // style de la troisième page, testimonies
 
 .testimonies{
-    height: 1108px;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     &__titre{
+        height: 20%;
         flex: 0.5 1 auto;
     }
-    
-    &__person{
+    &__ok{
         flex: 1 1 auto;
-        align-self: center;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        &__person{
+            
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
 
-        &__para{
-            text-align: center;
-            align-self: center;
-        }
-        &__container{
-            align-self: center;
-            width: 72px;
-            height: 72px;
+            &__para{
+                text-align: center;
+                align-self: center;
+            }
+            &__container{
+                align-self: center;
+                width: 72px;
+                height: 72px;
+            }
         }
     }
 }
@@ -130,6 +136,9 @@
 
     //second page image + text
     @include secondPageDekstop;
+
+    //Testimonies
+    @include testimoniesDekstop;
 
     // last page picture responsive
     @include lastPagePicturesDekstop;
